@@ -19,6 +19,7 @@ on:
 jobs:
   build-iso:
     runs-on: macos-latest
+    if: github.repository == 'Roeder/Download-macOS'
     steps:
       - uses: actions/checkout@v3
 
